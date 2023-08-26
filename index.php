@@ -69,7 +69,7 @@
                 const resultElement = document.getElementById("result");
 
                 const totalGradeValues = gradeValue; 
-                const average = totalGradeValues / 1; 
+                const average = totalGradeValues; 
                 
                 // menambahkan insertRow insertRow(-1)
                 resultElement.insertRow(-1).innerHTML =
